@@ -15,6 +15,19 @@
 		740580E7200496AB001EE9DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 740580E6200496AB001EE9DA /* main.m */; };
 		740580F1200496AB001EE9DA /* HelpersTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740580F0200496AB001EE9DA /* HelpersTests.m */; };
 		740580FC200496AB001EE9DA /* HelpersUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 740580FB200496AB001EE9DA /* HelpersUITests.m */; };
+		7405812620049725001EE9DA /* CLLocation+YCLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405810C20049725001EE9DA /* CLLocation+YCLocation.m */; };
+		7405812720049725001EE9DA /* iToast.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405810E20049725001EE9DA /* iToast.m */; };
+		7405812820049725001EE9DA /* iToastUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405811020049725001EE9DA /* iToastUtil.m */; };
+		7405812920049725001EE9DA /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405811220049725001EE9DA /* MBProgressHUD+MJ.m */; };
+		7405812A20049725001EE9DA /* NSDate+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405811420049725001EE9DA /* NSDate+Util.m */; };
+		7405812B20049725001EE9DA /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405811620049725001EE9DA /* NSString+Extension.m */; };
+		7405812C20049725001EE9DA /* UIActionSheet+Blocks.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405811820049725001EE9DA /* UIActionSheet+Blocks.m */; };
+		7405812D20049725001EE9DA /* UIButton+CAPAdjustFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405811A20049725001EE9DA /* UIButton+CAPAdjustFont.m */; };
+		7405812E20049725001EE9DA /* UIColor+CAPMyColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405811C20049725001EE9DA /* UIColor+CAPMyColor.m */; };
+		7405812F20049725001EE9DA /* UIFont+CAPJuageFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405811E20049725001EE9DA /* UIFont+CAPJuageFont.m */; };
+		7405813020049725001EE9DA /* UILabel+CAPAdjustFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405812020049725001EE9DA /* UILabel+CAPAdjustFont.m */; };
+		7405813120049725001EE9DA /* UITextField+CAPAdJustFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405812220049725001EE9DA /* UITextField+CAPAdJustFont.m */; };
+		7405813220049725001EE9DA /* UIView+BSTExtention.m in Sources */ = {isa = PBXBuildFile; fileRef = 7405812420049725001EE9DA /* UIView+BSTExtention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,33 @@
 		740580F7200496AB001EE9DA /* HelpersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelpersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		740580FB200496AB001EE9DA /* HelpersUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelpersUITests.m; sourceTree = "<group>"; };
 		740580FD200496AB001EE9DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7405810B20049725001EE9DA /* CLLocation+YCLocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CLLocation+YCLocation.h"; sourceTree = "<group>"; };
+		7405810C20049725001EE9DA /* CLLocation+YCLocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CLLocation+YCLocation.m"; sourceTree = "<group>"; };
+		7405810D20049725001EE9DA /* iToast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToast.h; sourceTree = "<group>"; };
+		7405810E20049725001EE9DA /* iToast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToast.m; sourceTree = "<group>"; };
+		7405810F20049725001EE9DA /* iToastUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iToastUtil.h; sourceTree = "<group>"; };
+		7405811020049725001EE9DA /* iToastUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iToastUtil.m; sourceTree = "<group>"; };
+		7405811120049725001EE9DA /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		7405811220049725001EE9DA /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		7405811320049725001EE9DA /* NSDate+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+Util.h"; sourceTree = "<group>"; };
+		7405811420049725001EE9DA /* NSDate+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+Util.m"; sourceTree = "<group>"; };
+		7405811520049725001EE9DA /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		7405811620049725001EE9DA /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		7405811720049725001EE9DA /* UIActionSheet+Blocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIActionSheet+Blocks.h"; sourceTree = "<group>"; };
+		7405811820049725001EE9DA /* UIActionSheet+Blocks.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIActionSheet+Blocks.m"; sourceTree = "<group>"; };
+		7405811920049725001EE9DA /* UIButton+CAPAdjustFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+CAPAdjustFont.h"; sourceTree = "<group>"; };
+		7405811A20049725001EE9DA /* UIButton+CAPAdjustFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+CAPAdjustFont.m"; sourceTree = "<group>"; };
+		7405811B20049725001EE9DA /* UIColor+CAPMyColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+CAPMyColor.h"; sourceTree = "<group>"; };
+		7405811C20049725001EE9DA /* UIColor+CAPMyColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+CAPMyColor.m"; sourceTree = "<group>"; };
+		7405811D20049725001EE9DA /* UIFont+CAPJuageFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIFont+CAPJuageFont.h"; sourceTree = "<group>"; };
+		7405811E20049725001EE9DA /* UIFont+CAPJuageFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIFont+CAPJuageFont.m"; sourceTree = "<group>"; };
+		7405811F20049725001EE9DA /* UILabel+CAPAdjustFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+CAPAdjustFont.h"; sourceTree = "<group>"; };
+		7405812020049725001EE9DA /* UILabel+CAPAdjustFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+CAPAdjustFont.m"; sourceTree = "<group>"; };
+		7405812120049725001EE9DA /* UITextField+CAPAdJustFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+CAPAdJustFont.h"; sourceTree = "<group>"; };
+		7405812220049725001EE9DA /* UITextField+CAPAdJustFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+CAPAdJustFont.m"; sourceTree = "<group>"; };
+		7405812320049725001EE9DA /* UIView+BSTExtention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+BSTExtention.h"; sourceTree = "<group>"; };
+		7405812420049725001EE9DA /* UIView+BSTExtention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+BSTExtention.m"; sourceTree = "<group>"; };
+		7405812520049725001EE9DA /* HJJHelperTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HJJHelperTools.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +141,7 @@
 		740580D6200496AB001EE9DA /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				7405810920049725001EE9DA /* HelperTools */,
 				740580D7200496AB001EE9DA /* AppDelegate.h */,
 				740580D8200496AB001EE9DA /* AppDelegate.m */,
 				740580DA200496AB001EE9DA /* ViewController.h */,
@@ -130,6 +171,48 @@
 				740580FD200496AB001EE9DA /* Info.plist */,
 			);
 			path = HelpersUITests;
+			sourceTree = "<group>";
+		};
+		7405810920049725001EE9DA /* HelperTools */ = {
+			isa = PBXGroup;
+			children = (
+				7405810A20049725001EE9DA /* Category */,
+				7405812520049725001EE9DA /* HJJHelperTools.h */,
+			);
+			path = HelperTools;
+			sourceTree = "<group>";
+		};
+		7405810A20049725001EE9DA /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				7405810B20049725001EE9DA /* CLLocation+YCLocation.h */,
+				7405810C20049725001EE9DA /* CLLocation+YCLocation.m */,
+				7405810D20049725001EE9DA /* iToast.h */,
+				7405810E20049725001EE9DA /* iToast.m */,
+				7405810F20049725001EE9DA /* iToastUtil.h */,
+				7405811020049725001EE9DA /* iToastUtil.m */,
+				7405811120049725001EE9DA /* MBProgressHUD+MJ.h */,
+				7405811220049725001EE9DA /* MBProgressHUD+MJ.m */,
+				7405811320049725001EE9DA /* NSDate+Util.h */,
+				7405811420049725001EE9DA /* NSDate+Util.m */,
+				7405811520049725001EE9DA /* NSString+Extension.h */,
+				7405811620049725001EE9DA /* NSString+Extension.m */,
+				7405811720049725001EE9DA /* UIActionSheet+Blocks.h */,
+				7405811820049725001EE9DA /* UIActionSheet+Blocks.m */,
+				7405811920049725001EE9DA /* UIButton+CAPAdjustFont.h */,
+				7405811A20049725001EE9DA /* UIButton+CAPAdjustFont.m */,
+				7405811B20049725001EE9DA /* UIColor+CAPMyColor.h */,
+				7405811C20049725001EE9DA /* UIColor+CAPMyColor.m */,
+				7405811D20049725001EE9DA /* UIFont+CAPJuageFont.h */,
+				7405811E20049725001EE9DA /* UIFont+CAPJuageFont.m */,
+				7405811F20049725001EE9DA /* UILabel+CAPAdjustFont.h */,
+				7405812020049725001EE9DA /* UILabel+CAPAdjustFont.m */,
+				7405812120049725001EE9DA /* UITextField+CAPAdJustFont.h */,
+				7405812220049725001EE9DA /* UITextField+CAPAdJustFont.m */,
+				7405812320049725001EE9DA /* UIView+BSTExtention.h */,
+				7405812420049725001EE9DA /* UIView+BSTExtention.m */,
+			);
+			path = Category;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,8 +348,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7405812E20049725001EE9DA /* UIColor+CAPMyColor.m in Sources */,
+				7405813120049725001EE9DA /* UITextField+CAPAdJustFont.m in Sources */,
+				7405812A20049725001EE9DA /* NSDate+Util.m in Sources */,
 				740580DC200496AB001EE9DA /* ViewController.m in Sources */,
 				740580E7200496AB001EE9DA /* main.m in Sources */,
+				7405812C20049725001EE9DA /* UIActionSheet+Blocks.m in Sources */,
+				7405812620049725001EE9DA /* CLLocation+YCLocation.m in Sources */,
+				7405812F20049725001EE9DA /* UIFont+CAPJuageFont.m in Sources */,
+				7405812D20049725001EE9DA /* UIButton+CAPAdjustFont.m in Sources */,
+				7405812820049725001EE9DA /* iToastUtil.m in Sources */,
+				7405813020049725001EE9DA /* UILabel+CAPAdjustFont.m in Sources */,
+				7405813220049725001EE9DA /* UIView+BSTExtention.m in Sources */,
+				7405812920049725001EE9DA /* MBProgressHUD+MJ.m in Sources */,
+				7405812720049725001EE9DA /* iToast.m in Sources */,
+				7405812B20049725001EE9DA /* NSString+Extension.m in Sources */,
 				740580D9200496AB001EE9DA /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
